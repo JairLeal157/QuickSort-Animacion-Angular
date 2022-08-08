@@ -1,0 +1,18 @@
+canvas{
+    max-width: 1000px;
+    max-height: 500px;
+}
+div{
+    display: flex;
+    justify-content: center;
+}
+#vectorGrafico{
+    display: flex;
+    justify-content: center;
+}
+span{
+    font-size: 20px;
+    font-weight: bold;
+    color : white;
+    margin-left: 10px;
+}

@@ -1,0 +1,39 @@
+fieldset {
+    display: grid;
+    max-width: 100%;
+    grid-template-columns: 3fr 0.5fr 0.5fr;
+    grid-gap: 10px;
+    border: none;
+}
+label {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    display: block;
+}
+input {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 1.2rem;
+    margin: 0 auto;
+    background-color: #323232;
+    border: none;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0 , .1);
+    display: block;
+}
+input:focus {
+    outline: none;
+}
+form{
+    margin-top: 20px;
+}
+button{
+    height: 100%;
+    margin: 0;
+    background-color:rgb(13, 115, 119); ;
+}
+button:hover{
+    background-color:rgb(20, 255, 236);
+}
+  

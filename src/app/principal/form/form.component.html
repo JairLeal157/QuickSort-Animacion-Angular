@@ -1,0 +1,10 @@
+<form>
+    <fieldset>
+        <label for="default-remember">
+            <input id="default-remember" placeholder="Ingresa los numeros que quieras ordenar separados por una coma, ejemplo: 1,2,3,4,5"
+            name="datos" [(ngModel)]="datos" >
+        </label>
+        <button type="Submit" class="pure-button" (click) = "enviar()" >Cargar</button>
+        <button type="button" class="pure-button" (click)="ordenar()">Ordenar</button>
+    </fieldset>
+</form>
